@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964f5b37-5e86-4f5e-ab20-5fc372168e69" name="Default" comment="version 0.01">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DigitRecognizer" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/KaggleCollection.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/model3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/model4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/run2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/run3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/submission2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HousePrice/source/submission3.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HousePrice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/HousePrice/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HousePrice/source/run.py" afterPath="$PROJECT_DIR$/HousePrice/source/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,10 +16,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="34" />
+    <option name="x" value="59" />
+    <option name="y" value="-4" />
     <option name="width" value="1307" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +203,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="34" width="1307" height="744" extended-state="1" />
+    <frame x="59" y="-4" width="1307" height="772" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26169705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
