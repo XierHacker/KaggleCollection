@@ -13,7 +13,7 @@ X_test=data.test_frame_dummy.values
 
 
 
-
+#based on the results of model.py and model3.py
 ridge=Ridge(alpha=10)
 RF=RandomForestRegressor(n_estimators=200,max_features=0.3)
 
