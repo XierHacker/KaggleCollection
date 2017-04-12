@@ -1,0 +1,11 @@
+#some .idea folder
+/.idea/*
+
+/HousePrice/.idea/*
+
+#folder to storage data
+/DigitRecognizer/data/*
+/HousePrice/data/*
+/LeafClassification/data/*
+
+
