@@ -36,7 +36,7 @@ def loadTrainData():
                                     "site_domain","site_category","app_domain","app_category",
                                     "device_model"],axis=1)
     new_dummy_df=pd.get_dummies(data=new_df)
-    clicked=new_df.pop("click")
+    clicked=new_dummy_df.pop("click")
     return new_dummy_df,clicked
 
 
