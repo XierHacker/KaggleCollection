@@ -29,4 +29,4 @@ result=np.expm1(xgb_regressor.predict(X_test))
 content={"Id":data.test_frame.index,"SalePrice":result}
 submission_df=pd.DataFrame(data=content)
 print(submission_df)
-submission_df.to_csv(path_or_buf="submission3.csv",index=False)
+#submission_df.to_csv(path_or_buf="submission3.csv",index=False)
