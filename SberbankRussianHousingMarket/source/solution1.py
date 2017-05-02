@@ -41,14 +41,14 @@ trainData=train_frame_dummy.values
 trainLabels=train_labels_frame.values
 testData=test_frame_dummy.values
 
-
+'''
 #split trainSet
 trainSet,validationSet,train_y,validation_y=train_test_split(trainData,trainLabels,test_size=0.2)
 print(trainSet.shape,validationSet.shape,train_y.shape,validation_y.shape)
 
 #build and fit model
-RF=RandomForestRegressor(n_estimators=200)
-BR=BaggingRegressor(base_estimator=RF,n_estimators=40)
+RF=RandomForestRegressor(n_estimators=20)
+BR=BaggingRegressor(base_estimator=RF,n_estimators=10)
 BR.fit(X=trainSet,y=train_y)
 
 #predict
@@ -58,3 +58,19 @@ print(pred)
 print(validation_y)
 
 print(RMSLE.loss(validation_y,pred))
+'''
+
+#build and fit model
+RF=RandomForestRegressor(n_estimators=20)
+BR=BaggingRegressor(base_estimator=RF,n_estimators=10)
+BR.fit(X=trainData,y=trainLabels)
+
+#predict
+pred=BR.predict(X=testData)
+
+result={"id":test_frame.index,"price_doc":pred}
+submit_frame=pd.DataFrame(data=result)
+
+print(submit_frame)
+submit_frame.to_csv(path_or_buf="answer1.csv",index=False)
+
