@@ -43,5 +43,18 @@ testData=test_frame_dummy.values
 
 
 #split trainSet
-trainSet,validationSet,train_y,validation_y=train_test_split((trainData,trainLabels),test_size=0.2)
+trainSet,validationSet,train_y,validation_y=train_test_split(trainData,trainLabels,test_size=0.2)
 print(trainSet.shape,validationSet.shape,train_y.shape,validation_y.shape)
+
+#build and fit model
+RF=RandomForestRegressor(n_estimators=200)
+BR=BaggingRegressor(base_estimator=RF,n_estimators=40)
+BR.fit(X=trainSet,y=train_y)
+
+#predict
+pred=BR.predict(X=validationSet)
+print(pred.shape)
+print(pred)
+print(validation_y)
+
+print(RMSLE.loss(validation_y,pred))
