@@ -5,6 +5,7 @@ if you want see more about the data.you can open the dataExplore.ipynb file in t
 
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 def loadFrame():
     train_frame=pd.read_csv("../data/train.csv")
@@ -15,4 +16,17 @@ def loadFrame():
 
     return train_frame,train_labels_frame,test_frame
 
+
+def vecToPic(dataSet):
+    dataSet=np.reshape(dataSet,newshape=(-1,28,28,1))
+    return dataSet
+
+#show
+def showpic(dataSet,i,labels=None):
+    img=dataSet[i][:,:,0]
+    plt.imshow(img)
+    if(labels!=None):
+        print("label:",labels[i])
+
+    plt.show()
 
