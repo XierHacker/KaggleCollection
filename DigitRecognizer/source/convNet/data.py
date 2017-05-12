@@ -5,7 +5,7 @@ import pandas as pd
 
 
 #load data
-train_data=pd.read_csv("../data/train.csv").values
+train_data=pd.read_csv("../../data/train.csv").values
 train_data_size=len(train_data)
 #print (train_data_size)
 
