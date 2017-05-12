@@ -17,7 +17,6 @@ class Network():
         #visulization
       #  writer=tf.train.SummaryWriter(logdir="./log",graph=self.graph)
 
-
     def define_framwork(self):
         '''
         #define framework of net
