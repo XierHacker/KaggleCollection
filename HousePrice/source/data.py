@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 train_frame=pd.read_csv("../data/train.csv",index_col=0)
 test_frame=pd.read_csv("../data/test.csv",index_col=0)
 
+def processing(trainSet,testSet):
+    return train_frame_processed,test_frame_processed
+
+
+
+
 '''
 #观察数据(前5行)
 print(train_frame.head())
